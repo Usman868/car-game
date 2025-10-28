@@ -19,8 +19,8 @@ body {
     height: 100%;
 }
 #car-png {
-    width: 180px;
-    height: 180px;
+    width: 280px;
+    height: 280px;
     /* border: 1px solid black; */
     position: absolute;
     bottom: 40px;
@@ -28,8 +28,8 @@ body {
 }
 
 #car {
-    width: 180px;
-    height: 180px;
+    width: 280px;
+    height: 280px;
     /* border: 1px solid black; */
     position: absolute;
     bottom: 40px;
