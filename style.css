@@ -37,8 +37,8 @@ body {
 }
 
 #start {
-    width: 80px;
-    height: 30px;
+    width: 120px;
+    height: 50px;
     color: white;
     background-color: blue;
     position: absolute;
@@ -50,8 +50,8 @@ body {
 
 }
 #stop{
-    width: 80px;
-    height: 30px;
+    width: 120px;
+    height: 50px;
     color: white;
     background-color: blue;
     position: absolute;
