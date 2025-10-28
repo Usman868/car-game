@@ -121,6 +121,7 @@ function signal() {
 signal();
 
 document.addEventListener("keydown", function (event) {
+    if (event.key === "ArrowRight") {
     if (lights[0].style.backgroundColor == "red") {
         stop();
         Swal.fire({
@@ -148,7 +149,6 @@ document.addEventListener("keydown", function (event) {
 
     var distance = 5;
 
-    if (event.key === "ArrowRight") {
         value += distance;
     }
 
