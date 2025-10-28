@@ -1,0 +1,99 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.road {
+    width: 100%;
+    height: 99vh;
+    position: relative;
+}
+.road-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#car-png {
+    width: 180px;
+    height: 180px;
+    /* border: 1px solid black; */
+    position: absolute;
+    bottom: 40px;
+
+}
+
+#car {
+    width: 180px;
+    height: 180px;
+    /* border: 1px solid black; */
+    position: absolute;
+    bottom: 40px;
+    display: none;
+}
+
+#start {
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+#stop{
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+.signal{
+    width: 50px;
+    height: 150px;
+    position: absolute;
+    background-color: black;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#red{
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ background-color: red;
+}
+
+#yellow{
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ background-color: #555;
+}
+
+#green{
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ background-color: #555;
+}
